@@ -12,6 +12,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        "din-condensed": ["DIN Condensed", "sans-serif"],
+        "helvetica-neue": ["Helvetica Neue", "sans-serif"],
+      },
+      backgroundImage: {
+        "noise-pattern": "url('/NOISE.png')", // Add custom background
+      },
     },
   },
   plugins: [],
